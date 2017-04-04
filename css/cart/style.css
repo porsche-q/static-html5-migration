@@ -1,0 +1,198 @@
+html, body, div, span, p, a, em, img, strong, fieldset, form, label, legend, input { margin:0; padding:0; border:0; outline:0; font-size:100%;  }
+
+html body div.clear { background:none; border:0; clear:both; display:block; float:none; font-size:0; margin:0; padding:0; overflow:hidden; visibility:hidden; width:0; height:0; }
+
+body { background:#FFFFFF; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:150%; }
+
+#wrapper { width:960px;	margin:20px auto; background:#FFFFFF; }
+
+#container { width:920px; margin:20px; text-align:left; float:left; display:inline; }
+
+h1 { font-family:Arial, Helvetica, sans-serif; font-size:24px; font-weight:normal; color:#333333; margin:0; padding:0; }
+h2 { margin:20px 0 10px 0; font-weight:normal; font-size:18px; }
+a { text-decoration:underline; color:#00CC00; }
+.alignRight { 
+  text-align:right; 
+}
+.alignLeft { 
+  text-align:left; 
+}
+
+/* STILI PRODOTTO */
+.simpleCart_shelfItem { 
+	float:left; 
+	display:inline; 
+/*	margin:20px 20px 20px 0; */
+	margin:20px 20px 20px 20px;
+	width:200px;
+	line-height:100%;
+	position:relative;
+	background:#FAFAFA;
+	text-align:center;
+	-moz-border-radius:5px; 
+	border-radius:5px;
+}
+
+/*
+.product_detail { 
+	float:left; 
+	display:inline; 
+	margin:20px 20px 20px 0;
+	width:100%; 
+	line-height:100%;
+	position:relative;
+	background:#DDDDDD; 
+	text-align:center;
+	-moz-border-radius:5px; 
+	border-radius:5px;
+}
+*/
+
+.simpleCart_shelfItem.last {
+	margin-right:0;
+}
+
+.simpleCart_shelfItem p { 
+	margin:10px 0 0 0; 
+}
+
+.item_name {
+	font-weight:bold;
+	font-size:11px;
+	margin:10px 0;
+	padding:0;
+}
+
+.item_size { font-size:12px; }
+
+.item_add {
+	margin:10px 5px;
+	padding:4px; 
+	background:#444444;
+	color:#FFFFFF;
+	border:none;
+	-moz-border-radius:5px; border-radius:5px;
+	text-transform: uppercase; 
+	font-size:12px;
+	cursor:pointer;
+}
+
+.item_price{
+	font-weight:bold;
+	font-size:14px;
+	color:#cc0000;
+	margin:10px 5px;
+}
+
+
+/* STILI CARRELLO */
+.simpleCart_items {
+	float:left; 
+	display:inline;
+	width:100%;
+	background:#EEEEEE;
+	-moz-border-radius:5px; 
+	border-radius:5px;
+	padding-bottom:10px;
+}
+
+.itemContainer, .cartHeaders {
+	width:100%;
+	float:left;
+	display:inline;
+	border-bottom:1px solid #CCCCCC;
+	padding-bottom:10px;
+}
+
+.cartHeaders {
+	font-weight:bold;
+	font-size:11px;
+	color: #666666;
+}
+
+.itemContainer div, .cartHeaders div {
+	float:left;
+	display:inline;
+	border-right:1px solid #CCCCCC;
+	margin:10px 0 0 0;
+	text-align:center;
+	width:100px;
+}
+
+div.itemName {
+	font-weight:bold;
+	width:200px;
+}
+
+div.itemTotal {
+	border-right:none;
+}
+
+
+#cartTotal {
+	text-align:right;
+	float:left;
+	width:100%;
+	font-size:18px;
+	margin:20px 0;
+}
+
+#cartTotal .simpleCart_total, .simpleCart_shippingCost, .simpleCart_finalTotal, .simpleCart_shipping, .simpleCart_grandTotal {
+	margin-right:25px;
+	padding:5px;
+	-moz-border-radius:5px; border-radius:5px;
+	background:#EEEEEE;
+	font-size:18px;
+	font-weight:bold;
+}
+
+a.cartlink{
+	color:#FFFFFF;
+	background:#666666;
+	font-size:14px;
+	padding:5px;
+	margin-left:5px;
+	text-transform:uppercase;
+	-moz-border-radius:5px; border-radius:5px;
+}
+
+
+/* STILI BOTTONI CHECKOUT / SVUOTA CARRELLO */
+.simpleCart_empty{
+	color:#FFFFFF;
+	background:#666666;
+	font-size:14px;
+	padding:5px;
+	margin-left:5px;
+	margin-right:25px;
+	text-transform:uppercase;
+	-moz-border-radius:5px; border-radius:5px;
+}
+
+.simpleCart_checkout{
+	color:#FFFFFF;
+	background: #666666;
+	font-size:14px;
+	padding:5px;
+	margin-left:5px;
+	margin-right:25px;
+  border:0; 
+  align:top;
+	text-transform:uppercase;
+	-moz-border-radius:5px; border-radius:5px;
+}
+
+.stepsbox { 
+	float:left; 
+	display:inline; 
+/*	margin:20px 20px 20px 0; */
+	margin:5px 20px 5px 20px;
+	width:300px;
+/*	height:320px;  */
+	line-height:100%;
+	position:relative;
+/*	background:#FAFAFA; */
+	text-align:center;
+	-moz-border-radius:5px; 
+	border-radius:5px;
+}
